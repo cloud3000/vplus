@@ -11,18 +11,17 @@ I had already developed software to migrate Image/3000 to SQL, so it only makes 
 
 These v/plus functions use the meta-data in the Sqlite DB to do basically the same thing they did on the HP3000, but GUI and Web/HTML. This version uses SP2 from Flexus to do the actual GUI/Web.
 
-What you are looking at here will not compile, there are missing dependencies.
+These v/plus functions here will not compile, they are missing dependencies.
 
-1. TCL script that are used to do the field processing specs, and to read the Sqlite DB are not included.
+1. TCL scripts that are used to do the field processing specs, and to read the Sqlite DB are not included.
 2. Copylib modules, also not included.
 3. SP2 from [Flexus](https://flexus.com/) also not included.
-4.
 
 These routines were written for the Acu-Cobol compiler, but should compile with minor mods using the GNU-Cobol compiler.
 
 My intension was to one day re-write these in ansi C, not C++, ansi C.
 
-I will probably include the copylib modules here soon.
+I will probably include the copylib modules here soon os at least they'll compile. But they still need the Tcl script and the SP2 runtime.
 
 I'll ask my friend who created the Tcl scripts if he would like to upload them here as well.
 
