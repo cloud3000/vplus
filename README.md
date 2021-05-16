@@ -9,7 +9,7 @@ I had already developed software to migrate Image/3000 to SQL, so it only makes 
 3. Load the meta-data into a Sqlite database file, with the extension `.vform`
 4. Rewrite all the v/plus functions, AKA:Subroutine Library.
 
-> Here are all the `v/plus` functions
+> Done, Done, Done and Done; Here are all the `v/plus` functions
 
 These v/plus functions use the meta-data in the Sqlite DB to do basically the same thing they did on the HP3000, but GUI and Web/HTML. This version uses SP2 from Flexus to do the actual GUI/Web.
 
