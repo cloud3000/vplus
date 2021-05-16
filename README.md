@@ -17,14 +17,14 @@ These v/plus functions here will not compile, they are missing dependencies.
 
 1. TCL scripts that are used to do the field processing specs, and to read the Sqlite DB are not included.
 2. Copylib modules, also not included.
-3. SP2 from [Flexus](https://flexus.com/) also not included.
+3. SP2 runtime from [Flexus](https://flexus.com/) also not included.
 
 These routines were written for the Acu-Cobol compiler, but should compile with minor mods using the GNU-Cobol compiler.
 
 My intension was to one day re-write these in ansi C, not C++, ansi C.
 
-I will probably include the copylib modules here soon os at least they'll compile. But they still need the Tcl script and the SP2 runtime.
+I will probably include the copylib modules here soon so at least they'll compile. But they still need the Tcl scripts and the SP2 runtime.
 
 I'll ask my friend who created the Tcl scripts if he would like to upload them here as well.
 
-However SP2 (the engin underneath it all) is proprietary and must be purchased.
+However, the SP2 runtime (the engin underneath it all) is proprietary and must be purchased.
